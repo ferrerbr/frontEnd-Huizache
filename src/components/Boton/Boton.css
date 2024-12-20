@@ -1,0 +1,21 @@
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    height: 40px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease ;
+}
+button :hover{
+    transform: scale(1.1);
+
+}

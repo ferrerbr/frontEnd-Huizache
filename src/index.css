@@ -1,0 +1,22 @@
+:root {
+  font-family: "KoHo", sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  padding: 0;
+  margin: 0; /* Opcional, si también quieres eliminar los márgenes */
+}
+
+
+
+
+

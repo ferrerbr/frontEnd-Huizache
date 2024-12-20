@@ -1,0 +1,26 @@
+.color-fuente{
+    color: tomato;
+}
+.nuevos-diseños{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+}
+.nuevos-disenos{
+    display: flex;
+    flex-direction: row;
+
+}
+.nuevo--diseño{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.loMas-comprado{
+    width: 100%;
+    min-height: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}

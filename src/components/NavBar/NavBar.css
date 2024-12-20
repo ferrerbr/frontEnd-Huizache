@@ -1,0 +1,62 @@
+.barra--navegacion{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 1000; 
+    height:70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.nombre-huizache{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+
+}
+.categorias-generales{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.categorias-generales h2{
+    font-size:x-large;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+.categorias-generales h2:hover{
+    transform: scale(1.2);
+}
+
+.navbar--iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.Icono{
+   scale: 0.9;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: transform 0.8s ease;
+}
+.Icono:hover{ 
+    
+    transform: scale(1.5);
+}
+.logo--nombre{
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+}
